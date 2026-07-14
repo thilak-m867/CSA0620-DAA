@@ -34,6 +34,7 @@ def fib_rec(num):
     
 fib_series = [fib_rec(i) for i in range(n2)]
 
+print("The fibonacci series using recursion is:\n")
 for i in fib_series:
     print(i, end=" ")
     
